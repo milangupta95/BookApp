@@ -15,6 +15,7 @@ function App() {
         <Route path='/adminPanel' element={<AdminPanel/>}></Route>
         <Route path='/books' element={<BooksPage/>}></Route>
         <Route path='/book' element = {<IndividualBook/>}></Route>
+        <Route path='/' element = {<AddBookForm/>}></Route>
       </Routes>
     </>
   );
