@@ -26,7 +26,7 @@ function AdminPanel() {
 
     return (
         loading ? <div>Loading...</div> :
-        !books || books.length == 0 ? <div>No Data To Show</div> :
+        !books || books.length == 0 ? <div className='text-xl text-center text-red-500 mt-10'>No Data To Show Please Add Some Books</div> :
         <div>
             <div class="p-8 flex h-screen w-[100%] mt-4 justify-center">
                 <div class="overflow-x-auto w-[100%] h-[100%]">
